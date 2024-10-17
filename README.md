@@ -13,6 +13,6 @@ Add the Folder to PATH (Optional): Add the folder containing the batch and VBScr
 Open Command Prompt in the Desired Folder<br/>
 Run the Batch File: In the command prompt, run the batch file by providing the current folder as an argument:<br/>
 ```
-ExportVisioToPDF.bat .<br/>
+ExportVisioToPDF.bat .
 ```
 The . represents the current folder, meaning the script will export all Visio files in this folder to PDFs.<br/>
