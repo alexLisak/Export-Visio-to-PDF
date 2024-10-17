@@ -1,5 +1,5 @@
 # Export-Visio-to-PDF
-Vbs script and batch file you can add to the path to execute a Visio to PDF conversion on a batch of files in the current directory
+Vbs script and batch file you can add to the path to execute a Visio to PDF conversion on a batch of files in the current directory. Log file generated for start/stop times and alerts for file overwrite.
 
 ## **VBScript to Handle the Visio Export**<br/>
 The VBScript (ExportVisioToPDF.vbs) opens each Visio file in the directory and exports it to a PDF. To ensure all pages are exported correctly, the script explicitly loops through all pages of each document and sets each page to be visible and printable.
